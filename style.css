@@ -1,4 +1,53 @@
 
 body{
     background-color: rgb(54, 54, 54);
+    width: 100vw;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: norse-bold;
+    src: url(/fonts/Norse-Bold.otf);
+}
+
+.accent-image-container{
+    max-width: 40vw;
+    height: 100vh;
+    position: relative;
+}
+
+.accent-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.heading-background{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    opacity: 0.5;
+    top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-background p{
+    color: rgb(179, 180, 180);
+    font-size:5rem;
+    font-family: norse-bold;
+}
+
+.accent-logo{
+    height: 100%;
+}
+
+.copywrite{
+    position: absolute;
+    color: whitesmoke;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%);
 }
